@@ -3,7 +3,7 @@ python: "3.6"
 install: true
 
 before_install:
-  - chmod +x .
+  - chmod +x ./pack.py
 
 script:
   - ./pack.py
